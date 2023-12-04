@@ -11,6 +11,7 @@ export default function Navbar() {
                 <div className="links">
                     <Link className="link" to={"/"}>HOME</Link>
                     <Link className="link" to={"/hello"}>ABOUT</Link>
+                    <Link className="link" to={"/contact"}>CONTACT</Link>
                 </div>
             </div>
 

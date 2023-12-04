@@ -1,0 +1,60 @@
+.about {
+    background-color: rgb(22, 22, 22);
+    padding: 0 10rem;
+    padding-top: 5%;
+    color: white;
+}
+
+.about h1 {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+    font-size: 4rem;
+}
+
+hr {
+    opacity: .35;
+    margin-bottom: 1rem;
+}
+
+.about h2 {
+    font-size: 2rem;
+    flex-grow: 1;
+    min-width: 20%;
+    margin-right: 25%;
+}
+
+.about p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.myself {
+    padding: 4% 0;
+    display: flex;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    font-size: 1.2rem;
+
+}
+
+.skill span {
+    font-size: 1.5rem;
+    line-height: 5rem;
+}
+
+.skill p {
+    margin-bottom: 2rem;
+}
+
+.skills hr {
+    padding: 2px;
+    background-color: white;
+}
+
+.services span {
+    font-weight: bold;
+}

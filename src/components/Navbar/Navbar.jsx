@@ -12,6 +12,7 @@ export default function Navbar() {
                     <Link className="link" to={"/"}>HOME</Link>
                     <Link className="link" to={"/hello"}>ABOUT</Link>
                     <Link className="link" to={"/contact"}>CONTACT</Link>
+                    <Link className="link" to={"/portfolio"}>PORTFOLIO</Link>
                 </div>
             </div>
 

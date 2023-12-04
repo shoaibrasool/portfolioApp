@@ -20,9 +20,17 @@
     margin-bottom: 1rem;
 }
 
+.hero .buttons {
+    display: flex;
+    gap: 2rem;
+}
+
 .hero button {
-    padding: 1rem 1.7rem;
-    margin-right: 3rem;
+    padding: 1rem 2rem;
+}
+
+.hero button .link{
+    color: black;
 }
 
 .hero p {

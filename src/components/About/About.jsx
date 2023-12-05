@@ -4,12 +4,12 @@ import './about.css'
 const About = () => {
     return (
         <div className='about'>
-            <h1>About ME</h1>
+            <h1>About me.</h1>
             <hr />
             <div className="myself">
-                <h2>A Bit about Me</h2>
+                <h2>A bit about me</h2>
                 <p>
-                    I am a Front-End React Developer working in Enigma Software Solutions from 6 months. I have a strong grip on different libraries used in react such as Redux etc. 
+                    I am a Front-End React Developer working in Enigma Software Solutions from 6 months. I have a strong grip on different libraries used in react such as Redux, MaterialUI etc. 
                 </p>
             </div>
             <div className="myself">
@@ -39,19 +39,19 @@ const About = () => {
                     <div className="skill">
                         <span>UI & UX Design</span>
                         <hr />
-                        <p>I design applications that are responsive for all devices and the desing won;t be effected by the width of the screen</p>
+                        <p>I design applications that are responsive for all devices and the desing won't be effected by the width of the screen</p>
 
                     </div>
                     <div className="skill">
                         <span>Mobile Apps</span>
                         <hr />
-                        <p>I design applications that are responsive for all devices and the desing won;t be effected by the width of the screen</p>
+                        <p>I design applications that are responsive for all devices and the desing won't be effected by the width of the screen</p>
 
                     </div>
                     <div className="skill">
                         <span>Responsive Applications</span>
                         <hr />
-                        <p>I design applications that are responsive for all devices and the desing won;t be effected by the width of the screen</p>
+                        <p>I design applications that are responsive for all devices and the desing won't be effected by the width of the screen</p>
                     </div>
                 </div>
             </div>

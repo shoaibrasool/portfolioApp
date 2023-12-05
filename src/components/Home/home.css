@@ -44,7 +44,9 @@
 .img {
     background-image: url(../../assets/photo-1514790193030-c89d266d5a9d.jfif);
     width: 50%;
+    border-radius: 5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: -2px 30px 13px rgb(34, 34, 34);
 }

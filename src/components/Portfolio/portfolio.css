@@ -27,7 +27,8 @@ hr {
 .card {
     background-image: url(../../assets/photo-1514790193030-c89d266d5a9d.jfif);
     width: 30%;
-    height: 40rem;
+    height: 30rem;
+    padding: 5%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,10 +36,21 @@ hr {
     box-shadow: 0px 0px 5px white;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card button {
+    padding: 1rem 2rem;
 }
 
 .card:hover {
     box-shadow: 0px 0px 25px white;
     transform: scale(1.05);
-
 }

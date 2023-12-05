@@ -10,12 +10,12 @@ const Home = () => {
         <h1>Front-End ReactJS Dev</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat perferendis aut cumque accusantium it</p>
         <div className="buttons">
-          <button><Link className="link" to={"/portfolio"}>Portfolio</Link></button>
-          <button><Link className="link" to={"/contact"}>Contact Me</Link></button>
+          <Link className="link" to={"/portfolio"}><button>Portfolio</button></Link>
+          <Link className="link" to={"/contact"}><button>Contact Me</button></Link>
         </div>
       </div>
       <div className="img">
-        
+
       </div>
     </div>
   )

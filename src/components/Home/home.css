@@ -27,6 +27,11 @@
 
 .hero button {
     padding: 1rem 2rem;
+    transition: 0.2s ease-in-out;
+}
+
+.hero button:hover {
+    transform: scale(1.05);
 }
 
 .hero button .link{

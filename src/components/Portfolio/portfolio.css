@@ -2,6 +2,7 @@
     background-color: rgb(22, 22, 22);
     padding: 5% 10rem;
     color: white;
+    min-height: 100vh;
 }
 
 .portfolio h1 {
@@ -22,6 +23,18 @@ hr {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.info{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.error{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #ffb4b4;
 }
 
 .card {

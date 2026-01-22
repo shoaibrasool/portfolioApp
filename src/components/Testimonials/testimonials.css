@@ -1,0 +1,29 @@
+.testimonials{
+  background-color: rgb(22, 22, 22);
+  padding: 0 10rem;
+  padding-top: 5%;
+  color: white;
+  min-height: 100vh;
+}
+
+.testimonials h1{
+  padding-top: 6rem;
+  padding-bottom: 1.5rem;
+  font-size: 4rem;
+}
+
+.quote{
+  margin-top: 3rem;
+  max-width: 900px;
+}
+
+.quote p{
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+.attribution{
+  display: block;
+  margin-top: 1rem;
+  opacity: 0.8;
+}

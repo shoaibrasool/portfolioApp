@@ -12,6 +12,8 @@ import App from './App.jsx';
 import About from './components/About/About.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import Portfolio from './components/Portfolio/Portfolio.jsx';
+import Skills from './components/Skills/Skills.jsx';
+import Testimonials from './components/Testimonials/Testimonials.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,8 +25,12 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: "/hello",
+        path: "/about",
         element: <About/>
+      },
+      {
+        path: "/skills",
+        element: <Skills/>
       },
       {
         path: "/contact",
@@ -33,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/portfolio",
         element: <Portfolio/>
+      },
+      {
+        path: "/testimonials",
+        element: <Testimonials/>
       }
     ],
   },

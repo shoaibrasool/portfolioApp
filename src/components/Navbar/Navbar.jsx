@@ -10,9 +10,11 @@ export default function Navbar() {
                 <h2>SHOAIB RASOOL</h2>
                 <div className="links">
                     <Link className="link" to={"/"}>HOME</Link>
-                    <Link className="link" to={"/hello"}>ABOUT</Link>
-                    <Link className="link" to={"/contact"}>CONTACT</Link>
+                    <Link className="link" to={"/about"}>ABOUT</Link>
+                    <Link className="link" to={"/skills"}>SKILLS</Link>
                     <Link className="link" to={"/portfolio"}>PORTFOLIO</Link>
+                    <Link className="link" to={"/testimonials"}>TESTIMONIALS</Link>
+                    <Link className="link" to={"/contact"}>CONTACT</Link>
                 </div>
             </div>
 

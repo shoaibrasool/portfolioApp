@@ -4,13 +4,19 @@ import './contact.css'
 const Contact = () => {
     return (
         <div className="contact">
-            <h1>Contact Me</h1>
+            <h1>Let’s build something great together.</h1>
             <hr />
             <div className="contactForm">
                 <div className="details">
                     <h2>Get In Touch</h2>
-                    <h4>Emails <a href="">shooaib6@gmail.com</a></h4>
-                    <h4>Phone : <span>+923119599700</span></h4>
+                    <h4>📧 Email: <a href="mailto:shooaib6@gmail.com">shooaib6@gmail.com</a></h4>
+                    <h4>📱 Phone: <a href="tel:+923119599700">+92 311 9599700</a></h4>
+                    <h4>🌍 Location: <span>Islamabad, Pakistan</span></h4>
+                    <h4>
+                        💼 <a href="https://www.linkedin.com/in/shoaib-rasool" target="_blank" rel="noreferrer">LinkedIn</a> |
+                        <a href="https://github.com/shoaibrasool" target="_blank" rel="noreferrer"> GitHub</a> |
+                        <a href="https://www.upwork.com" target="_blank" rel="noreferrer"> Upwork</a>
+                    </h4>
                 </div>
                 <div className="form">
                     <form>

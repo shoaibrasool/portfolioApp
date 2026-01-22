@@ -6,12 +6,11 @@ const Home = () => {
   return (
     <div className='heroSect'>
       <div className="hero">
-        <h1>I'm Shoaib Rasool</h1>
-        <h1>Front-End ReactJS Dev</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat perferendis aut cumque accusantium it</p>
+        <h1>Full-Stack Developer | React, React Native, Node.js, AI-Driven Solutions</h1>
+        <p>I build high-performance web and mobile applications with clean architecture, scalable backends, and modern UI/UX.</p>
         <div className="buttons">
-          <Link className="link" to={"/portfolio"}><button>Portfolio</button></Link>
-          <Link className="link" to={"/contact"}><button>Contact Me</button></Link>
+          <Link className="link" to={'/portfolio'}><button>View My Work</button></Link>
+          <Link className="link" to={'/contact'}><button>Contact Me</button></Link>
         </div>
       </div>
       <div className="img">

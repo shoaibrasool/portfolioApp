@@ -28,6 +28,10 @@ hr {
     line-height: 2rem;
 }
 
+.aboutText p{
+    margin-bottom: 1rem;
+}
+
 .myself {
     padding: 4% 0;
     display: flex;
@@ -39,6 +43,16 @@ hr {
     width: 70%;
     font-size: 1.2rem;
 
+}
+
+.facts{
+    list-style: none;
+    padding-left: 0;
+}
+
+.facts li{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
 }
 
 .skill span {

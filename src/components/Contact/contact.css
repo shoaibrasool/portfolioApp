@@ -1,9 +1,8 @@
 .contact {
-    background-color: rgb(22, 22, 22);
     padding: 0 10rem;
     padding-top: 5%;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .contact h1 {
@@ -54,16 +53,24 @@ hr {
     width: 60%;
 }
 
+.form form{ padding: 1.5rem; border-radius: 16px; }
+.form form.glass{ background: rgba(12,14,18,0.4); border: 1px solid rgba(255,255,255,0.12); backdrop-filter: blur(10px); }
+
 .form .row {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2%;
 }
 
 .form .row input {
-    padding: 1.5rem;
-    width: 50%;
-    font-size: 1.2rem;
+    padding: 1.2rem;
+    width: 48%;
+    font-size: 1.05rem;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
 }
 
 .form .msg {
@@ -73,18 +80,22 @@ hr {
 .form .msg textarea {
     width: 100%;
     height: 26vh;
-    padding: 2rem;
-    font-size: 1.2rem;
-
+    padding: 1.2rem;
+    font-size: 1.05rem;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
 }
 
 .form button {
     float: right;
     margin: 0;
-    padding: 1rem 3rem;
-    font-size: 1.2rem;
-    background-color: white;
-    outline: 0;
-    border: 0;
-    border-radius: 2px;
+    font-size: 1.1rem;
+}
+
+.status{
+    margin-top: 1rem;
+    font-size: 1rem;
+    opacity: 0.9;
 }
